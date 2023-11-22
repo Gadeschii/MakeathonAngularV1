@@ -1,0 +1,25 @@
+
+nav {
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+nav a {
+    text-decoration: none;
+    color: #8cbc54;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f4f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
