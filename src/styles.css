@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merienda:wght@300&family=Playball&display=swap');
+
+
 p {
     font-size: 15px;
 }
@@ -27,4 +29,28 @@ header {
     justify-content: space-between; 
     align-items: center; 
     margin: 20px; 
+}
+.button {
+    background-color: #f9f9f9;
+    border: 2px solid #8cbc54;
+    border-radius: 10px;
+    color: #8cbc54;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+}
+  
+.button:hover {
+    background-color: #8cbc54;
+    border-color: #8cbc54;
+    color: white;
+    cursor: pointer;
+}
+  
+.button:active {
+    background-color: #8cbc54;
+    /* Cambiar el color del borde a un azul más claro */
+    border-color: #b2d18f;
+    /* Cambiar la posición del botón para dar un efecto de profundidad */
+    transform: translateY(2px);
 }

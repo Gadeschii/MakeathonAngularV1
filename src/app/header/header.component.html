@@ -1,44 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Page </title>
-</head>
-
-<body>
-    <header>
-        <div class="header-content">
-            <h1>Welcome to Makeathon 2024</h1>
-            <a href="#home"> <img src="assets/images/Smart-Green-Island-Makeathon.jpg" alt="Company Logo"></a>
-        </div>
-
-        <style> 
-            /* Estilos opcionales para mejorar la apariencia */
-            body {
-              font-family: Arial, sans-serif;
-              margin: 20px;
-            }
-        
-            input {
-              padding: 8px;
-              width: 300px;
-            }
-        
-            ul {
-              list-style-type: none;
-              padding: 0;
-            }
-        
-            li {
-              margin: 5px 0;
-              padding: 10px;
-              border: 1px solid #ddd;
-              background-color: #f9f9f9;
-            }
-          </style>
-    </header>
-
+  </head>
+  <header>
+      <div class="header-content">
+          <h1>Welcome to Makeathon 2024</h1>
+          <a href="#home"> <img src="assets/images/Smart-Green-Island-Makeathon.jpg" alt="Company Logo"></a>
+      </div>
+  </header>
     <nav>
         <button class="button" href="#home">Home</button>
         <button class="button" href="#ImportList">Import List</button>
@@ -47,44 +19,6 @@
         <button class="button" href="#AddParticipant">Add Participant</button>
         <button class="button" href="#login">Login / Create Account</button>
     </nav>
-
-    <div class="container">
-        
-        <h1>Search for assistant's name</h1>
-
-        <label for="search">Find Users:</label>
-        <input type="text" id="search" oninput="searchUsers()" placeholder="Write users name">
-  
-        <ul id="userList">
-        <!-- show the result -->
-        </ul>
-  
-        <script>
-        // Datos de ejemplo (puedes reemplazarlos con tus propios datos)
-        const usuarios = [
-        'Usuario1',
-        'Usuario2',
-        'Usuario3',
-        'Usuario4',
-        'Usuario5',
-         ];
-
-        function searchUsers() {
-        const input = document.getElementById('search');
-        const filter = input.value.toLowerCase();
-        const userList = document.getElementById('userList');
-        userList.innerHTML = ''; //Clear the list before show the result.
-  
-        // Filter the users and show the resoult.
-        usuarios.forEach(usuario => {
-          if (usuario.toLowerCase().includes(filter)) {
-            const li = document.createElement('li');
-            li.textContent = usuario;
-            userList.appendChild(li);
-          }
-        });
-      }
-        </script>
-    </div>
-</body>
+    
 </html>
+ 
