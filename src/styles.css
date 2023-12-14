@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merienda:wght@300&family=Playball&display=swap');
-
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~bootstrap/dist/css/bootstrap.css";
 
 p {
     font-size: 15px;
@@ -54,3 +55,14 @@ header {
     /* Cambiar la posición del botón para dar un efecto de profundidad */
     transform: translateY(2px);
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

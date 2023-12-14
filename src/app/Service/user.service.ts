@@ -17,10 +17,10 @@ export class UserService {
 
   // Autenticar con el servidor Feathers
   login(email: string, password: string) {
-    return this._feathers.authenticate({
-      strategy: 'local',
-      email,
-      password
-    });
+    // return this._feathers.authenticate({
+    //   strategy: 'local',
+    //   email,
+    //   password
+    // });
   }
 }
